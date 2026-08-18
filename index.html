@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive notifications page built with HTML, CSS and JavaScript.">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preload" href="./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="./style.css">
+  <title>Notifications page</title>
+</head>
+<body>
+  <main class="notifications-card">
+    <header class="notifications-header">
+      <div class="heading-group">
+        <h1>Notifications</h1>
+        <span class="unread-count" aria-label="3 unread notifications">3</span>
+      </div>
+      <button class="mark-read" type="button">Mark all as read</button>
+    </header>
+
+    <section class="notifications-list" aria-label="Notifications">
+      <!-- Notifications are rendered by JavaScript. -->
+    </section>
+
+    <p class="sr-only" aria-live="polite"></p>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/DevAdeh" target="_blank" rel="noreferrer">DevAdeh</a>.
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
