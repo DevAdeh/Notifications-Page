@@ -4,7 +4,7 @@ A responsive notifications page built as part of a Frontend Mentor challenge.
 
 ## Live Demo
 
-[View the live site](YOUR_VERCEL_URL)
+[View the live site](https://notifications-page-three-rose.vercel.app/)
 
 ## Repository
 
